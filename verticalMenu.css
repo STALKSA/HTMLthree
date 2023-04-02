@@ -1,0 +1,45 @@
+div {
+  background-color: white;
+  padding: 20px;
+   width: 100%;
+/*   margin: auto;*/
+}
+
+.menu-container {
+  padding-top: 70px;
+ 
+  background-color: #DCDCDC;
+  width: 200px;
+  height: 50%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+/*    padding: 10px;  */
+  width: 150px;
+  display: flex;
+  align-items: center;
+  background-color: #C0C0C0;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #808080;
+}
+
+.menu-item img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.menu-item p {
+  margin: 0;
+  font-size: 16px;
+}
